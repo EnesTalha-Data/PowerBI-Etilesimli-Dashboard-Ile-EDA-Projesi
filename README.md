@@ -45,7 +45,7 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 
 <img width="1540" height="862" alt="Dilimleyici" src="https://github.com/user-attachments/assets/371da718-ad21-4887-a6ac-d98d5cb9de76" />
 
-- Yukarıdaki resimde kırmızı ok ile gösterilen dilimleyici hangi bölgeye ait grafikleri ve kartları görebileceğimizi seçeceğimiz bir dilimleyicidir. Halihazırda Bölge_01'in seçili olduğunu görebiliyoruz. Ayrıca bu projede 38 farklı bölge yer almıştır.
+- Yukarıdaki resimde kırmızı ok ile gösterilen dilimleyici hangi bölgeye ait grafikleri ve kartları görebileceğimizi seçeceğimiz bir dilimleyicidir. Halihazırda Bölge_01'in seçili olduğunu görebiliyoruz.
 
 <img width="1537" height="860" alt="Dilimleyici2" src="https://github.com/user-attachments/assets/da7bffd4-03fc-443a-aa10-9fd9f1780605" />
 
