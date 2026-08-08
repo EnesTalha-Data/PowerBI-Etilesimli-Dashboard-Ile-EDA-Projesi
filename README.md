@@ -31,8 +31,14 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 
 - Bu görselde ise gösterilen kartlar seçilen bölgede bulunan cihaz türlerinin sayılarını gösterir. Mesela şuan Bölge_01 seçili iken "Cihaz 1" türünde 2 adet, "Cihaz 2" türünde 6 adet, "Cihaz 3" türünde 3 adet, "Cihaz 4" türünde 2 adet ve "Cihaz 5" türünde ise 1 adet cihaz olduğunu görüntüleyebiliyoruz. Bölgelerin cihaz sayılarının fazla veya az olması o bölgenin büyüklüğünü anlamamızı sağlayabilir.
 
+Artık grafikleri inceleyebiliriz;
 
+<img width="1538" height="862" alt="Grafik1" src="https://github.com/user-attachments/assets/e127470d-c71f-45af-989f-8621156aaf9f" />
 
+- İlk grafiğimiz bir çizgi grafiğidir ve görselde kırmızı ok ile gösterilmiştir. Bu grafikte seçtiğimiz bölgenin hangi günlerde ne kadar ciro yaptığını ve yaptığı bu cironun ne kadarlık bir kısmının ödemesinin alınamadığını görebiliyoruz.
+- Bu grafikte görülen turkuaz çizgi toplam ciroyu, lacivert çizgi ise ödeme alınamayan miktarı gösterir. (TL cinsinden)
+- Eğer toplam ciro ve ödeme alınamayan çizgisi birbirine yakın değerlerde ise, o gün başarı oranımız o kadar düşüktür demektir. Yani mesela grafiği incelediğimizde 21 Haziran ve 28 Haziran tarihleri arasında birkaç günde iki çizgi iç içe geçmiştir. Bu demek oluyor ki o günlerde yaptığımız cironun hiçbir kısmının ödemesini alamamışız.
+- Kısacası bu grafikten yola çıkarak hangi günlerde ne kadar ödemenin hatalı veya başarısız olduğunu görebilir ve bunu daha detaylı araştırabiliriz. Aynı zamanda hangi günlerde ne kadar ciro yaptığımızı görerek o günlerin analizini yapabiliriz.
 
 
 
