@@ -11,7 +11,7 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 
 Öncelikle bu dashboard için hareketli bir arkaplan tercih ettim ve grafikleri, kartları ve dilimleyicileri oluştururken bu arkaplana uygun renkler kullandım. Böylece şık ve fazla renk karmaşası olmayan bir dashboard oluşmuş oldu.
 
-![Bölge Dilimleyicisi](C:/Users/asus/Pictures/Screenshots/Dilimleyici)
+![Bölge Dilimleyicisi](C:/Users/asus/Pictures/Screenshots/Dilimleyici.png)
 
 
 
