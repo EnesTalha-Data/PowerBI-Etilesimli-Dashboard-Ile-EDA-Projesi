@@ -60,7 +60,7 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 <img width="1538" height="862" alt="Kartlar" src="https://github.com/user-attachments/assets/cae31248-00bf-4dd9-a046-cff2d747b327" />
 
 - Bu görselde ise gösterilen kartlar seçilen bölgede bulunan cihaz türlerinin sayılarını gösterir. Mesela şuan Bölge_01 seçili iken "Cihaz 1" türünde 2 adet, "Cihaz 2" türünde 6 adet, "Cihaz 3" türünde 3 adet, "Cihaz 4" türünde 2 adet ve "Cihaz 5" türünde ise 1 adet cihaz olduğunu görüntüleyebiliyoruz. Bölgelerin cihaz sayılarının fazla veya az olması o bölgenin büyüklüğünü anlamamızı sağlayabilir.
-- Buradaki kartları oluşturmak için her bir cihaz değişkeni için ayrı ölçü oluşturmam gerekti. Örneğin Cihaz 1 için şu şekilde yaptım;
+- Buradaki kartları oluşturmak için her bir cihaz değişkeni için DAX dili kullanarak ayrı ölçü oluşturmam gerekti. Örneğin Cihaz 1 için şu şekilde oluşturdum;
 ```dax
 Cihaz 1 = 
 CALCULATE(
@@ -68,6 +68,8 @@ CALCULATE(
     ALLEXCEPT('Tablo', 'Tablo'[Bölge Adı])
 )
 ```
+- Bu kod satırında MAX fonksiyonunu kullanmamın sebebi her ayrı gün için cihaz 1 sayısını toplamak istememem. Çünkü bu değişken günden güne değişen bir değişken değil. Eğer her günü ayrı olarak alıp toplasaydı sonuç yanlış çıkardı bu nedenle MAX komutu ile sadece 1 tanesini almış oldum.
+- Aynı zamanda ALLEXCEPT fonksiyonunu kullanmamın sebebi ise bu değişkenin tarihe bağlı olmamasıdır. Çünkü verimizdeki Cihaz değişkenleri tarih değişkeninden tamamen bağımsızdır. Yani bu fonksiyonu kullanarak sadece "Bölge Adı" dilimleyicisinin etkisini görmeyi hedefledim.
 
 Artık grafikleri inceleyebiliriz;
 
