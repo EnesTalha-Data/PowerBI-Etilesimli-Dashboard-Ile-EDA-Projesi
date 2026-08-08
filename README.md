@@ -53,8 +53,12 @@ Artık grafikleri inceleyebiliriz;
 - Görselde görüldüğü üzere seçilen tarih aralığında toplam 78 bin giriş çıkış sayısı ile Bölge_22 en yoğun bölge olmuştur.
 - Bu grafikten ise hangi bölgelerin ne kadar yoğun olduğunu inceleyebilir, diğer grafiklerden de yaralanarak yoğunluğun başarı oranına veya toplam ciroya etkisi var mı inceleyebiliriz.
 
+<img width="1537" height="862" alt="Grafik4" src="https://github.com/user-attachments/assets/27f6daa7-e727-4f51-85e5-2a4bcc9396e8" />
 
-
+- Bu grafik ise bir çubuk grafiğidir ve yine bölge dilimleyicisinden bağımsız çalışır. 
+- Grafiğin amacı seçilen tarih aralığında bölgelerin başarı oranlarının ortalamasını almak ve bunları sıralamaktır.
+- Görselde görüldüğü üzere seçtiğimiz tarih aralığında başarı ortalaması en yüksek olan bölge Bölge_24 olmuştur. (%99.4)
+- Bu grafikten ise başarı oranı ortlaması olarak hangi bölgelerin en iyi olduklarını görebilir ve bu bölgelerin başarılarını ve bu başarıların sebeplerini inceleyebiliriz.
 
 
 
