@@ -37,7 +37,7 @@ Artık grafikleri inceleyebiliriz;
 
 - İlk grafiğimiz bir çizgi grafiğidir ve görselde kırmızı ok ile gösterilmiştir. Bu grafikte seçtiğimiz bölgenin hangi günlerde ne kadar ciro yaptığını ve yaptığı bu cironun ne kadarlık bir kısmının ödemesinin alınamadığını görebiliyoruz.
 - Bu grafikte görülen turkuaz çizgi toplam ciroyu, lacivert çizgi ise ödeme alınamayan miktarı gösterir. (TL cinsinden)
-- Eğer toplam ciro ve ödeme alınamayan çizgisi birbirine yakın değerlerde ise, o gün başarı oranımız o kadar düşüktür demektir. Yani mesela grafiği incelediğimizde 21 Haziran ve 28 Haziran tarihleri arasında birkaç günde iki çizgi iç içe geçmiştir. Bu demek oluyor ki o günlerde yaptığımız cironun hiçbir kısmının ödemesini alamamışız.
+- Eğer toplam ciro ve ödeme alınamayan çizgisi birbirine yakın değerlerde ise, o gün başarı oranımız o kadar düşüktür demektir. Yani mesela grafiği incelediğimizde Bölge_13 için 21 Haziran ve 28 Haziran tarihleri arasında birkaç günde iki çizgi iç içe geçmiştir. Bu demek oluyor ki o günlerde yaptığımız cironun hiçbir kısmının ödemesini alamamışız.
 - Kısacası bu grafikten yola çıkarak hangi günlerde ne kadar ödemenin hatalı veya başarısız olduğunu görebilir ve bunu daha detaylı araştırabiliriz. Aynı zamanda hangi günlerde ne kadar ciro yaptığımızı görerek o günlerin analizini yapabiliriz.
 
 
