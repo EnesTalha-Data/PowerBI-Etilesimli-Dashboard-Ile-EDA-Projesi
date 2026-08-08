@@ -46,6 +46,13 @@ Artık grafikleri inceleyebiliriz;
 - Örneğin görselde Bölge_13 için olan grafiği incelediğimizde 22 ve 25 Haziran tarihleri arasında başarı oranlarımızın 0 olduğunu görüyoruz. Yani bir önceki çizgi grafiğinde incelediğimiz durumu destekliyor. Bununla beraber 29 Haziran gününde başarı oranımızın 1 olduğunu yani mükemmel olduğunu görebiliyoruz.
 - Bu grafiğin amacı hem bir önceki çizgi grafiğini desteklemek hem de başarı oranlarının hangi günler düşüş yaşadığını görebilmek, buna neyin sebep olduğunu inceleyebilmek ve araştırabilmektir.
 
+<img width="1538" height="862" alt="Grafik3" src="https://github.com/user-attachments/assets/c1c8970d-a003-44a7-93f9-0277a13c146a" />
+
+- Bir diğer grafiğimiz ise bir pasta grafiğidir. Bu grafik en yoğun 5 bölgeyi göstermek amacıyla yapılmıştır.
+- Bölge dilimleyicisinin bu grafikte bir görevi yoktur çünkü bu grafik genel bir sıralama gösterir.
+- Görselde görüldüğü üzere seçilen tarih aralığında toplam 78 bin giriş çıkış sayısı ile Bölge_22 en yoğun bölge olmuştur.
+- Bu grafikten ise hangi bölgelerin ne kadar yoğun olduğunu inceleyebilir, diğer grafiklerden de yaralanarak yoğunluğun başarı oranına veya toplam ciroya etkisi var mı inceleyebiliriz.
+
 
 
 
