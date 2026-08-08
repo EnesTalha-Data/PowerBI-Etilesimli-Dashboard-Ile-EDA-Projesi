@@ -60,6 +60,13 @@ Artık grafikleri inceleyebiliriz;
 - Görselde görüldüğü üzere seçtiğimiz tarih aralığında başarı ortalaması en yüksek olan bölge Bölge_24 olmuştur. (%99.4)
 - Bu grafikten ise başarı oranı ortlaması olarak hangi bölgelerin en iyi olduklarını görebilir ve bu bölgelerin başarılarını ve bu başarıların sebeplerini inceleyebiliriz.
 
+<img width="1537" height="862" alt="Grafik5" src="https://github.com/user-attachments/assets/3c8d565e-a299-4347-9012-eeaccf7a3577" />
+
+- Son grafiğimiz ise bir ağaç haritasıdır. Bu grafik ise yine bölge dilimleyicisinden bağımsız çalışır.
+- Grafiğin amacı seçtiğimiz tarih aralığında bütün bölgelerin toplam cirolarını göstermek ve sıralamaktır.
+- Görseli incelediğimizde Bölge_12'nin 1,841 milyon TL ile en yüksek ciroya sahip olduğunu görebiliyoruz.
+- Kısacası bu grafik ile hangi bölgelerin ne kadar ciro yaptığını görebilir, yorumlayabiliriz.
+- 
 
 
 
