@@ -15,7 +15,9 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 
 <img width="1540" height="862" alt="Dilimleyici" src="https://github.com/user-attachments/assets/371da718-ad21-4887-a6ac-d98d5cb9de76" />
 
-- Yukarıdaki resimde kırmızı ok ile gösterilen dilimleyici hangi bölgeye ait grafikleri ve kartları göreceğimizi seçeceğimiz bir dilimleyicidir. Halihazırda Bölge_01'in seçili olduğunu görebiliyoruz.
+- Yukarıdaki resimde kırmızı ok ile gösterilen dilimleyici hangi bölgeye ait grafikleri ve kartları görebileceğimizi seçeceğimiz bir dilimleyicidir. Halihazırda Bölge_01'in seçili olduğunu görebiliyoruz.
 
+<img width="1537" height="860" alt="Dilimleyici2" src="https://github.com/user-attachments/assets/da7bffd4-03fc-443a-aa10-9fd9f1780605" />
 
+- Yine yukarıdaki görselde kırmızı ok ile gösterilen bir diğer dilimleyici ise 16 Haziran 2026 ve 3 Temmuz 2026 aralığındaki tarihleri kapsayan bir tarih dilimleyicisi. Bu kullanılarak hangi tarih aralığındaki verileri görmek istediğimizi ayarlayabiliyoruz.
 
