@@ -40,6 +40,15 @@ Artık grafikleri inceleyebiliriz;
 - Eğer toplam ciro ve ödeme alınamayan çizgisi birbirine yakın değerlerde ise, o gün başarı oranımız o kadar düşüktür demektir. Yani mesela grafiği incelediğimizde Bölge_13 için 21 Haziran ve 28 Haziran tarihleri arasında birkaç günde iki çizgi iç içe geçmiştir. Bu demek oluyor ki o günlerde yaptığımız cironun hiçbir kısmının ödemesini alamamışız.
 - Kısacası bu grafikten yola çıkarak hangi günlerde ne kadar ödemenin hatalı veya başarısız olduğunu görebilir ve bunu daha detaylı araştırabiliriz. Aynı zamanda hangi günlerde ne kadar ciro yaptığımızı görerek o günlerin analizini yapabiliriz.
 
+<img width="1537" height="861" alt="Grafik2" src="https://github.com/user-attachments/assets/afc4b6ef-8993-4501-a75d-d756c3df97de" />
+
+- Yukarıda kırmızı ok ile gösterilen bir diğer grafik ise bir alan grafiğidir. Bu grafikte seçtiğimiz bölgenin belirlediğimiz tarih aralığındaki başarı oranlarını görebiliyoruz.
+- Örneğin görselde Bölge_13 için olan grafiği incelediğimizde 22 ve 25 Haziran tarihleri arasında başarı oranlarımızın 0 olduğunu görüyoruz. Yani bir önceki çizgi grafiğinde incelediğimiz durumu destekliyor. Bununla beraber 29 Haziran gününde başarı oranımızın 1 olduğunu yani mükemmel olduğunu görebiliyoruz.
+- Bu grafiğin amacı hem bir önceki çizgi grafiğini desteklemek hem de başarı oranlarının hangi günler düşüş yaşadığını görebilmek, buna neyin sebep olduğunu inceleyebilmek ve araştırabilmektir.
+
+
+
+
 
 
 
