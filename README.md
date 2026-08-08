@@ -7,6 +7,36 @@ Bu proje için PowerBI tercih etme sebebim; etkileşimli, şık ve kolay kullan�
 
 NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansıtmamaktadır.
 
+# Verimizdeki Değişkenleri İnceleyelim
+
+- Tarih -> Tarih değişkenidir.
+
+- Bölge Adı -> Veride bulunan 38 adet bölgenin adlarını içeren değişkendir.
+
+- Bölge Türü -> Bölgenin "Halka Açık" veya "Özel" bölge olup olmadığını gösteren bir değişkendir.
+
+- Giriş Sayısı -> Bölgeye giriş yapan kişi sayısını gösterir.
+
+- Çıkış Sayısı -> Bölgeden çıkış yapan kişi sayısını gösterir.
+
+- Ödeme Alınan (TL) -> TL cinsinden ne kadar ödeme alındığını gösteren değişkendir.
+
+- Ödeme Alınmayan (TL) -> TL cinsinden ne kadar ödemenin alınmadığını veya alınamadığını gösteren değişkendir.
+
+- Ciro (TL) -> Toplam ciroyu gösteren değişkendir ve "Ödeme Alınan (TL)" + "Ödeme Alınmayan (TL)" hesabı ile oluşturulmuştur.
+
+- Başarı Oranı -> Başarı oranını gösteren değişkendir. Yani toplam cironun yüzde kaçlık kısmının ödemesinin alındığını gösterir. "Ödeme Alınan (TL)" / "Ciro (TL)" hesabı ile oluşturulmuştur.
+
+- Cihaz 1 Toplam -> Bölgedeki toplam cihaz 1 sayısını gösteren değişkendir.
+
+- Cihaz 2 Toplam -> Bölgedeki toplam cihaz 2 sayısını gösteren değişkendir.
+
+- Cihaz 3 Toplam -> Bölgedeki toplam cihaz 3 sayısını gösteren değişkendir.
+
+- Cihaz 4 Toplam -> Bölgedeki toplam cihaz 4 sayısını gösteren değişkendir.
+
+- Cihaz 5 Toplam -> Bölgedeki toplam cihaz 5 sayısını gösteren değişkendir.
+
 # Dashboard Arayüzünü İnceleyelim
 
 Öncelikle bu dashboard için hareketli bir arkaplan tercih ettim ve grafikleri, kartları ve dilimleyicileri oluştururken bu arkaplana uygun renkler kullandım. Böylece şık ve fazla renk karmaşası olmayan bir dashboard oluşmuş oldu.
