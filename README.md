@@ -68,7 +68,7 @@ CALCULATE(
     ALLEXCEPT('Tablo', 'Tablo'[Bölge Adı])
 )
 ```
-- Bu kod satırında MAX fonksiyonunu kullanmamın sebebi her ayrı gün için cihaz 1 sayısını toplamak istememem. Çünkü bu değişken günden güne değişen bir değişken değil. Eğer her günü ayrı olarak alıp toplasaydı sonuç yanlış çıkardı bu nedenle MAX komutu ile sadece 1 tanesini almış oldum.
+- Bu kod satırında MAX fonksiyonunu kullanmamın sebebi her ayrı gün için cihaz 1 sayısını toplamak istememem. Çünkü bu değişken günden güne değişen bir değişken değil. Eğer her günü ayrı olarak alıp toplasaydı sonuç yanlış çıkardı. Bu nedenle MAX komutu ile sadece 1 tanesini almış oldum.
 - Aynı zamanda ALLEXCEPT fonksiyonunu kullanmamın sebebi ise bu değişkenin tarihe bağlı olmamasıdır. Çünkü verimizdeki Cihaz değişkenleri tarih değişkeninden tamamen bağımsızdır. Yani bu fonksiyonu kullanarak sadece "Bölge Adı" dilimleyicisinin etkisini görmeyi hedefledim.
 
 Artık grafikleri inceleyebiliriz;
