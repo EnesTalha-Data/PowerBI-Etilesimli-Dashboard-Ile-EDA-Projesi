@@ -66,7 +66,7 @@ Artık grafikleri inceleyebiliriz;
 - Grafiğin amacı seçtiğimiz tarih aralığında bütün bölgelerin toplam cirolarını göstermek ve sıralamaktır.
 - Görseli incelediğimizde Bölge_12'nin 1,841 milyon TL ile en yüksek ciroya sahip olduğunu görebiliyoruz.
 - Kısacası bu grafik ile hangi bölgelerin ne kadar ciro yaptığını görebilir, yorumlayabiliriz.
-- 
+
 
 
 
