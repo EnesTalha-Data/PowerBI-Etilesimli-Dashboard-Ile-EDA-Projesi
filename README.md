@@ -21,3 +21,8 @@ NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansı
 
 - Yine yukarıdaki görselde kırmızı ok ile gösterilen bir diğer dilimleyici ise 16 Haziran 2026 ve 3 Temmuz 2026 aralığındaki tarihleri kapsayan bir tarih dilimleyicisi. Bu kullanılarak hangi tarih aralığındaki verileri görmek istediğimizi ayarlayabiliyoruz.
 
+Şimdi kartları inceleyelim;
+
+<img width="1537" height="863" alt="Kart" src="https://github.com/user-attachments/assets/e704179b-d502-4ccc-81e9-c8ce7ea90ef3" />
+
+- Yukarıda kırmızı ok ile gösterilen kart, seçilen bölgenin halka açık veya özel bölge olup olmadığını gösteren bir karttır. Eğer "Halka Açık" yazıyorsa bu bölge halkın kullanımına açık, "Özel" yazıyorsa sadece üye olanların kullanabildiği bir bölgedir.
