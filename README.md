@@ -5,6 +5,8 @@ Burada amacım hangi bölgelerin en yüksek cirolara ulaştıklarını hangi bö
 
 Bu proje için PowerBI tercih etme sebebim; etkileşimli, şık ve kolay kullanımı olan bir proje hazırlamak istememdir.
 
+NOT: Projede kullanılan veri tamamen anonimleştirilmiştir ve gerçeği yansıtmamaktadır.
+
 # Dashboard Arayüzünü İnceleyelim
 
 
