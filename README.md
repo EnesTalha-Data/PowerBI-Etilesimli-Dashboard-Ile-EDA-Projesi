@@ -92,7 +92,12 @@ Artık grafikleri inceleyebiliriz;
 - Bölge dilimleyicisinin bu grafikte bir görevi yoktur çünkü bu grafik genel bir sıralama gösterir.
 - Görselde görüldüğü üzere seçilen tarih aralığında toplam 78 bin giriş çıkış sayısı ile Bölge_22 en yoğun bölge olmuştur.
 - Bu grafikten ise hangi bölgelerin ne kadar yoğun olduğunu inceleyebilir, diğer grafiklerden de yaralanarak yoğunluğun başarı oranına veya toplam ciroya etkisi var mı inceleyebiliriz.
-
+- Bölgelerin yoğunluklarını hesaplamak için şu ölçüm yapılmıştır;
+```dax
+Toplam Yoğunluk = SUM(Tablo[Giriş Sayısı]) + SUM(Tablo[Çıkış Sayısı])
+```
+- Bu şekilde bölgelere ait toplam yoğunlukları hesaplayan ölçü oluşturmuş oldum.
+- 
 <img width="1537" height="862" alt="Grafik4" src="https://github.com/user-attachments/assets/27f6daa7-e727-4f51-85e5-2a4bcc9396e8" />
 
 - Bu grafik ise bir çubuk grafiğidir ve yine bölge dilimleyicisinden bağımsız çalışır. 
