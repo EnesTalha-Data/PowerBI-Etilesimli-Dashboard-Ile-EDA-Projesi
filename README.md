@@ -97,13 +97,18 @@ Artık grafikleri inceleyebiliriz;
 Toplam Yoğunluk = SUM(Tablo[Giriş Sayısı]) + SUM(Tablo[Çıkış Sayısı])
 ```
 - Bu şekilde bölgelere ait toplam yoğunlukları hesaplayan ölçü oluşturmuş oldum.
-- 
+
 <img width="1537" height="862" alt="Grafik4" src="https://github.com/user-attachments/assets/27f6daa7-e727-4f51-85e5-2a4bcc9396e8" />
 
 - Bu grafik ise bir çubuk grafiğidir ve yine bölge dilimleyicisinden bağımsız çalışır. 
 - Grafiğin amacı seçilen tarih aralığında bölgelerin başarı oranlarının ortalamasını almak ve bunları sıralamaktır.
 - Görselde görüldüğü üzere seçtiğimiz tarih aralığında başarı ortalaması en yüksek olan bölge Bölge_24 olmuştur. (%99.4)
-- Bu grafikten ise başarı oranı ortlaması olarak hangi bölgelerin en iyi olduklarını görebilir ve bu bölgelerin başarılarını ve bu başarıların sebeplerini inceleyebiliriz.
+- Bu grafikten ise başarı oranı ortalaması olarak hangi bölgelerin en iyi olduklarını görebilir ve bu bölgelerin başarılarını ve bu başarıların sebeplerini inceleyebiliriz.
+- Bögelerin belirli tarih aralığındaki başarı oranlarının ortalamalarını hesaplayabilmek için şu şekilde bir ölçü oluşturdum;
+```dax
+Başarı Oranı Ortalaması = AVERAGE(Tablo[Başarı Oranı])
+```
+- Bu ölçü ile belirli tarih aralığındaki bölgelerin başarı oranlarının ortalamalarını hesaplayabilmiş oldum.
 
 <img width="1537" height="862" alt="Grafik5" src="https://github.com/user-attachments/assets/3c8d565e-a299-4347-9012-eeaccf7a3577" />
 
@@ -112,6 +117,21 @@ Toplam Yoğunluk = SUM(Tablo[Giriş Sayısı]) + SUM(Tablo[Çıkış Sayısı])
 - Görseli incelediğimizde Bölge_12'nin 1,841 milyon TL ile en yüksek ciroya sahip olduğunu görebiliyoruz.
 - Kısacası bu grafik ile hangi bölgelerin ne kadar ciro yaptığını görebilir, yorumlayabiliriz.
 
+# Oluşturduğum Dashboard İle Örnek Olarak Küçük Bir Analiz Yapalım
+
+Bu analiz için Bölge_37'yi kullanacağım ve 16 Haziran 2026 ile 28 Haziran 2026 tarihleri aralığında inceleyeceğim.
+
+<img width="1538" height="858" alt="Ekran görüntüsü 2026-08-09 205425" src="https://github.com/user-attachments/assets/862a7031-b84b-4cdd-ab2e-a593c90cbcd5" />
+
+- Görseli incelediğimizde Bölge_37'de 3 adet cihaz 1, 6 adet cihaz 2, 7 adet cihaz 3, 4 adet cihaz 4, 5 adet de cihaz 5 bulunmaktadır. Yani bu bölgenin gerçekten büyük bir bölge olduğu söylenebilir.
+- Ardından ilk grafiği incelersek 25 Haziran tarihine kadar "Toplam Ödeme Alınamayan" çizgisinin hep 0 değerinde olduğunu görebiliyoruz. Bu da demek oluyor ki 25 Haziran tarihine kadar yaptığımız cironun hepsinin ücretini alabilmişiz. Fakat 22 ve 25 Haziran tarihleri aralığında "Toplam Ciro" çizgisi olan turkuaz çizginin de 0 TL değerinde olduğunu görüyoruz. Bu bize şu yorumu çıkarır; 22 ve 25 Haziran tarihleri aralığında bu bölge çok büyük ihtimalle kullanıma kapatılmış veya sadece üyelere özel hale getirilmiş. Bu nedenle herhangi bir ciro hesaplanmamıştır.
+- 25 Haziran 2026 tarihinden itibaren ise önceden hiç olmayan bir şey olmuş ve "Toplam Ödeme Alınamayan" çizgisi yükselmeye başlamıştır. Belki de 22 ve 25 Haziran aralığındaki duraklama döneminde bir sorun meydana gelmiş olabilir ki ardından gelen günlerde böyle bir sorun meydana gelmiş. Bu durum yetkililere bildirilip  sebebi araştırılabilir.
+- Ardından bölgenin başarı oranları grafiğini incelersek görüldüğü üzere 25 Haziran gününe kadar başarı oranının hep 1 olduğunu görüyoruz. Fakat 22 ve 25 Haziran tarihleri arasında cironun 0 TL değerinde olduğunu görmüştük neden hala başarı oranı 1 olarak gözüküyor? Çünkü ben veriyi oluştururken bu duruma dikkat ettim. Normalde veride ciro yapılmayan günler için başarı oranı da hesaplanmamış ve "null" değer olarak gelmişti. Ben bu boş değerleri 1 ile doldurmanın en mantıklı olduğunu düşündüm. Çünkü eğer o gün kullanıma kapatılmış veya sadece üyelere özel kullanıma açık olsaydı bu bölge, başarı oranı aslında 0 olmayacaktı, sadece geçici olarak ücret çekilmeyecekti. Bundan dolayı başarı oranını 0 olarak göstermek mantıklı olmazdı.
+- 25 Haziran tarihinden itibaren ise başarı oranında ciddi bir düşüş görüyoruz. %50 başarının altına kadar düşmüşüz. Önceki grafik için yapılan yorumda olduğu gibi burası için de aynı şey söylenebilir. Bu oluşan durumun incelenmesi ve sebebinin öğrenilmesi gerekir.
+- Diğer grafikleri incelersek, bu grafikler seçtiğimiz bölgeye bağlı olmadığından sadece seçtiğimiz tarih aralığında değişime uğramıştır.
+- Pasta grafiğini incelersek, seçtiğimiz tarih aralığında toplam 53 bin giriş çıkış sayısı ile en yoğun bölge Bölge_22 olmuştur. Ardından 41 bin giriş çıkış sayısı ile Bölge_12 gelmiştir. İncelediğimiz Bölge_37 ise ilk 5 bölge arasına girememiştir.
+- Çubuk grafiğine bakacak olursak, belirlediğimiz tarih aralığında başarı oranı ortlaması en yüksek olan yer Bölge_26 olmuştur. Tam olarak %99.9 başarı oranı ile gerçekten tam başarı elde etmiş diyebiliriz. Arından %99.7 başarı oranı ortalaması ile Bölge_24 gelmiştir.
+- Bölgelerin toplam cirolarını görebileceğimiz son grafiğimizi de incelersek, 1,132 Milyon TL ile Bölge_24 cirosu en yüksek bölge olmuştur. Ardından Bölge_12 ve Bölge_27 gelmiştir.
 
 
 
